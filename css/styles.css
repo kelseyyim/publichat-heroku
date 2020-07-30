@@ -1,0 +1,102 @@
+.header {
+  background-color: #689bff;
+  color: white;
+}
+
+.chat-button {
+  background-color: #74fcfd;
+  color: black;
+  position: relative;
+}
+.overall-layout {
+  margin: 5%;
+  padding: 20px;
+  background-color: #f5d14e;
+}
+
+#chatbox {
+  text-align: left;
+  margin: 0 auto;
+  background: #fff;
+  height: 50em;
+  width: 100%;
+  border: 1px solid #acd8f0;
+  overflow: auto;
+}
+
+#wrapper {
+  margin: 2%;
+}
+
+.chat-bubble {
+  background-color: #f5d14e;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  display: inline-block;
+}
+
+.jumbotron.text-center.header {
+  padding: 120px 0 0 0;
+  background-image: url(https://cdn.discordapp.com/attachments/728063310939029606/737903140208377907/Group_4.png);
+}
+
+.logo {
+  font-size: 90px;
+  padding: 30px 0;
+  display: flex;
+}
+
+.left {
+  position: relative;
+  left: 39.9%;
+  background-color: #4eb9f5;
+  padding: 5px 15px;
+  text-shadow: 1px 1px 1px black;
+  box-shadow: 1px 1px 2px 0px #232323;
+}
+
+.right {
+  padding: 5px 15px 5px 0;
+  position: relative;
+  left: 39%;
+  margin: 23px 0 -23px 0;
+  background-color: #f5d14e;
+  text-shadow: 1px 1px 0px black;
+  box-shadow: 1px 1px 4px 0px #232323;
+}
+.main-about {
+  text-align: center;
+  /* color: rgb(86, 143, 255); */
+  padding-left: 200px;
+  padding-right: 200px;
+  /* color: rgb(104,155,255) */
+}
+
+.ui-images {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+#about-heading {
+  color: rgb(86, 143, 255);
+}
+
+body {
+  background-color: #689bff;
+}
+
+.info {
+  background-color: white;
+  padding-top: 20px;
+}
