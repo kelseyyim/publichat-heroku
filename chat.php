@@ -99,7 +99,7 @@ $(document).ready(function(){
 $("#submitmsg").click(function(){	
 		var clientmsg = $("#usermsg").val();
 		$.post("post.php", {text: clientmsg});				
-		$("#usermsg").attr("value", "");
+		$("#usermsg").val("");
     var room = "<?php echo $_SESSION["roomID"] ?>";
     loadLog(room);
 		return false;
