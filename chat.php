@@ -20,7 +20,7 @@
       crossorigin="anonymous"
     />
 <?php 
-
+$_SESSION["nickname"] = $_POST["nickname"];
 // permitted characters we want to use
 $permitted_chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
  
