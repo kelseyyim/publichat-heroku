@@ -80,12 +80,14 @@ button {
   text-align: center;
   padding-left: 50px;
   padding-right: 50px;
+  border: 10px solid;
 }
 
 img {
   max-width: 100%;
   height: auto;
   width: auto\9; /* ie8 */
+  border: 10px solid;
 }
 
 #about-heading {
@@ -97,6 +99,6 @@ body {
 }
 
 .info {
-  background-color: white;
+  background-color: #f5d14e;
   padding-top: 20px;
 }
